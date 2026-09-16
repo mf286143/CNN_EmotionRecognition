@@ -1,0 +1,127 @@
+{
+    "sample_count": 7178,
+    "class_names": [
+        "angry",
+        "disgust",
+        "fear",
+        "happy",
+        "neutral",
+        "sad",
+        "surprise"
+    ],
+    "accuracy": 0.5401225968236277,
+    "macro_precision": 0.5254510601595995,
+    "macro_recall": 0.45047668156492776,
+    "macro_f1": 0.44537692680883023,
+    "weighted_f1": 0.518517935892752,
+    "classification_report": {
+        "angry": {
+            "precision": 0.4469078179696616,
+            "recall": 0.39979123173277664,
+            "f1-score": 0.42203856749311297,
+            "support": 958
+        },
+        "disgust": {
+            "precision": 0.5714285714285714,
+            "recall": 0.036036036036036036,
+            "f1-score": 0.06779661016949153,
+            "support": 111
+        },
+        "fear": {
+            "precision": 0.4146868250539957,
+            "recall": 0.1875,
+            "f1-score": 0.2582380632145259,
+            "support": 1024
+        },
+        "happy": {
+            "precision": 0.6594138543516874,
+            "recall": 0.8370913190529876,
+            "f1-score": 0.7377049180327869,
+            "support": 1774
+        },
+        "neutral": {
+            "precision": 0.4629156010230179,
+            "recall": 0.5871857258718572,
+            "f1-score": 0.5176975330711476,
+            "support": 1233
+        },
+        "sad": {
+            "precision": 0.4218362282878412,
+            "recall": 0.40898155573376105,
+            "f1-score": 0.4153094462540717,
+            "support": 1247
+        },
+        "surprise": {
+            "precision": 0.7009685230024213,
+            "recall": 0.6967509025270758,
+            "f1-score": 0.6988533494266748,
+            "support": 831
+        }
+    },
+    "confusion_matrix": [
+        [
+            383,
+            0,
+            58,
+            151,
+            158,
+            176,
+            32
+        ],
+        [
+            49,
+            4,
+            7,
+            17,
+            19,
+            14,
+            1
+        ],
+        [
+            128,
+            1,
+            192,
+            134,
+            189,
+            245,
+            135
+        ],
+        [
+            57,
+            1,
+            26,
+            1485,
+            101,
+            66,
+            38
+        ],
+        [
+            81,
+            1,
+            35,
+            191,
+            724,
+            182,
+            19
+        ],
+        [
+            129,
+            0,
+            70,
+            199,
+            317,
+            510,
+            22
+        ],
+        [
+            30,
+            0,
+            75,
+            75,
+            56,
+            16,
+            579
+        ]
+    ],
+    "checkpoint_path": "C:\\Users\\macie\\PycharmProjects\\CNN_Selfmade\\outputs\\baseline_model\\saved_models\\best_model.pth"
+}

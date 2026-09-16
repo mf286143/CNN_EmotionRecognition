@@ -1,0 +1,25 @@
+
+# metadata n cache
+*.egg-info
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# notneeded comppiled
+*.pyc
+*.pyo
+
+# token-saver graphiphy
+.graphifyignore
+graphify-out
+
+# data/dataset (too big for git + 'tegrity, not mine data)
+/data/raw/fer2013/train/*
+/data/raw/fer2013/test/*
+
+# config n confidential
+.env
+.env.*
+!.env.example

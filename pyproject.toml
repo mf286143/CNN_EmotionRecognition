@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CNN_EmotionRecognition"
+version = "0.1"
+description = "Emotion recognition using CNN"
+requires-python = ">=3.11"  #needed for toml
+dependencies = [
+    "torch",
+    "torchvision",
+    "Pillow",
+    #"PyYAML",      # made rudundant, converted yaml to toml
+    "matplotlib"    # not needed for NN to work TODO: delete it in final project along with tests
+]
+
+[tool.setuptools]
+package-dir = {"" = "source"}
+
+[tool.setuptools.packages.find]
+where = ["source"]

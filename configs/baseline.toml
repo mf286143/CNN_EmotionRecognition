@@ -1,0 +1,15 @@
+[project]
+seed = 999
+
+[data]
+root = "data/raw/fer2013"
+batch_size = 64  # # todo: experiment with batchsize whne improving nn
+val_split = 0.1
+image_size = 48
+
+[training]
+all_epochs = 7
+learning_rate = 0.001
+
+[outputs]
+checkpoint_path = "outputs/baseline_model/saved_models/best_model.pth"
