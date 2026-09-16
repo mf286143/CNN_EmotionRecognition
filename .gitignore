@@ -17,7 +17,9 @@ graphify-out
 
 # data/dataset (too big for git + 'tegrity, not mine data)
 /data/raw/fer2013/train/*
+!/data/raw/fer2013/train/.gitkeep
 /data/raw/fer2013/test/*
+!/data/raw/fer2013/test/.gitkeep
 
 # config n confidential
 .env
