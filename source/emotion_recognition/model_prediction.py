@@ -71,7 +71,7 @@ def predict_image(
         probabilities = torch.softmax(class_score, dim = 1)[0]
 
         # sort labels descending
-        predicted_index = probabilities.argmax().item()
+        predicted_index = int(probabilities.argmax().item())        # added int()
 
         # set class scrore prediction to correct class
         predicted_class = class_names[predicted_index]

@@ -105,8 +105,15 @@ def train_model(
     all_epochs: int,
     checkpoint_path: Path,
     class_names: list[str],
-) -> dict:
-    history = {
+
+# shows warning on run_training on
+#   f"{max(outcomes['validation_accuracy']):.2%}"
+#
+# ) -> dict:
+#     history = {
+
+) -> dict[str, list[float]]:
+    history: dict[str, list[float]] = {
         "train_loss": [],
         "train_accuracy": [],
         "validation_loss": [],
