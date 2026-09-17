@@ -8,7 +8,7 @@ val_split = 0.1
 image_size = 48
 
 [training]
-all_epochs = 7
+all_epochs = 20
 learning_rate = 0.001
 
 [outputs]
