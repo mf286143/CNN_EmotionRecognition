@@ -21,13 +21,19 @@ add extracted data folders ("train" and "test") to directory in the project: /da
 
 quickstart for testing:
 
-1) install dependencies
+1) move to location where project was cloned (to same folder level where "pyproject.toml" is located)
+
+```text
+cd .../filepath/.../CNN_EmotionRecognition/
+```
+
+2) install dependencies
 
 ```bash
 python -m pip install -e .
 ```
 
-2) demo presentation of progres until 14.09
+3) demo presentation of progres until 14.09
 
 ```bash
 python tests/test_run_prediction.py
